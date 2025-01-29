@@ -1,6 +1,6 @@
 #content {
     max-width: 1600px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
@@ -57,12 +57,12 @@ nav a {
 }
 
 footer {
-    background-color:#a8dadc    
+    background-color: #a8dadc
 }
 
 footer p {
     font-size: 1.2em;
-    color: black
+    color: white;
 }
 
 footer p a:hover {
