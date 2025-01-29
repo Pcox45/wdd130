@@ -1,0 +1,40 @@
+div {
+    margin: 0 auto;
+    max-width: 1600px
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #e63946;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+#background {
+    height: 725px;
+    background-color: #a8dadc;
+}
+
+.icon {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: white
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
