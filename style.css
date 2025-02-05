@@ -1,32 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+/* set web-browser defaults to zero */
+*{ 
+    padding: 0;
+    margin: 0;
+}
 
 font-family {
-    --heading-font: "Rock Salt";
-    --paragraph-font: Roboto, Helvetica, sans-serif;
+    /* --heading-font: "Rock Salt"; */
+    /* --paragraph-font: Roboto, Helvetica, sans-serif; */
 }
 
 body {
     background-color: darkslategrey;
+    font-family: Roboto, Helvetica, sans-serif;
+
 }
 
 img {
     display: block;
 margin: 0 auto;
-max-width: 300px
+max-width: 300px;
+border-radius: 50%;
 }
 
 header {background-color: azure;
+    text-align: center;
 }
 
 h1 {
-    font-size: 40px
+    font-size: 40px;
+    font-family: Helvetica;
 }
 
-p{
-    font-size: 18px;
+.main-paragraph {
+    font-size: 15px;
     font-weight: bold;
-    text-align: center;
     color: honeydew;
+    padding: 10px;
+    border: 5px solid honeydew;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 footer {
