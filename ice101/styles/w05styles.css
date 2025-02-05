@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1000;
+}
+
+.pictures {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: grey;
+    height: 1000px;
+    text-align: center;
+}
