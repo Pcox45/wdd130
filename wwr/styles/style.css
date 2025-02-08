@@ -184,10 +184,6 @@ footer {
     line-height: 2.5;
 }
 
-.footer {
-    color:orange
-}
-
 footer .social img {
     padding-top: 15px;
 }
@@ -209,3 +205,4 @@ a {
 footer p a:hover {
     text-decoration: underline;
 }
+
