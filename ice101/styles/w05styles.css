@@ -1,17 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+
 body {
     margin: 0 auto;
 }
 
-main img{
-    max-width: 1000;
+main {
+    padding: 0;
+    justify-self: auto;
 }
 
-.pictures {
+main img{
+    max-width: 100%;  
+}
+
+/* .pictures {
+    border-radius: 50%;
+} */
+
+
+
+/* code to make images circular with borders */
+
+footer img{
+    padding: 0;
+    max-width: 1000px;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    border: 8px solid black;
+    margin: 50px;
     border-radius: 50%;
 }
 
-footer img{
-    max-width: 1000px;
-    text-align: center;
-    width: 20%;
-}
+
