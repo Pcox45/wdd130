@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  background-color: darkgrey;
+}
+
+img {
+  grid-column: 1/3;
+  background-color: white;
+}
+
+h2 {
+  color: darkred;
+  align-items: end;
+  letter-spacing: 10px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* #grey {
+  margin: 1.8em;
+  color: darkred;
+  font-size: 50px;
+  letter-spacing: 10px;
+  justify-items: center;
+  align-items: end;
+} */
