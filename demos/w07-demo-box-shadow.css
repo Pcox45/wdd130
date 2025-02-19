@@ -1,0 +1,18 @@
+.boxshadow {
+  box-shadow: 10px 10px 30px #333;
+  box-shadow: 10px 10px 30px #333;
+}
+
+body {
+  /* background: orange; */
+}
+
+/* first value is left to right second is top to bottom 3rd value is the amount of blur */
+h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 10px greenyellow;
+}
+
+p {
+  text-shadow: 1px 1px 2px #333;
+}
