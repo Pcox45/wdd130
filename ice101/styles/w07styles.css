@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+}
+
+.mountain {
+  width: 100%;
+}
+
+body {
+  /* max-width: 1000px; */
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+}
