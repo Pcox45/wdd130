@@ -13,15 +13,17 @@ img {
 
 h1 {
   text-align: center;
+  padding: 30px;
 }
 
 p {
   text-align: center;
-  padding: 0;
+  padding: 50px;
+  font-family: "Roboto slab', Arial, Helvetica, sans-serif;
 }
 
 #bottom {
-  background-color: royalblue;
+  background-color: royalblue;  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
