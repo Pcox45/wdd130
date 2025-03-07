@@ -36,10 +36,10 @@ body {
 }
 
 h2 {
-  font-family: "Rock Salt", Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   color: black;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 h1 {
@@ -233,7 +233,7 @@ footer {
   text-decoration: none;
   background-color: #a8dadc;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 100px;
   line-height: 2.5;
   display: flex;
   justify-content: space-around;
@@ -260,6 +260,29 @@ a {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+.page2-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rates-dates-p > p {
+  padding: 20px;
+  margin: 20px 40px;
+}
+
+.page2images > img {
+  margin: 20px 0;
+  width: 100%;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.page2header {
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 900px) {
@@ -309,4 +332,14 @@ footer p a:hover {
   footer {
     margin-top: 25px;
   }
+
+  /* start of page 2 */
+
+  .page2-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.rates-dates-header {
+  margin-left: 100px;
 }
