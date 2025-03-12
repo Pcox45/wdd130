@@ -42,21 +42,19 @@ p {
   background-color: royalblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  max-width: 400px;
 }
 
-.first {
-  grid-column: 1/2;
+.firstrow {
   color: white;
+  border-right: 1px solid white;
+  padding: 0 60px;
 }
 
-.second {
-  grid-column: ;
+.secondrow {
   color: white;
-}
-
-.three {
-  grid-column: 3/5;
-  color: white;
+  border-right: 1px solid white;
+  grid-row: 2/3;
 }
 
 sup {
