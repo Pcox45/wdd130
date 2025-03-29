@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 body {
-  max-width: 1250px;
+  max-width: 1600px;
   margin: 0 auto;
   background-color: #7e52a0;
   font-size: 25px;
@@ -241,8 +241,62 @@ footer {
 
 /* page 2 css */
 
-.container4pg2 {
-  background-color: white;
+.main2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 16px;
+}
+
+.containterrules {
+grid-column: 1;
+grid-row: 2;
+background-color:crimson;
+font-size: 16px;
+}
+.container-rules h1 { 
+  padding: 10px 0 10px 16px;
+  font-size: 20px;
+  text-align: center;
+}
+.pg2img {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-right: 16px;
+  width: 95%;
+}
+.container1p {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container1p h1 {
+  font-size: 30px;
+  text-align: center;
 }
 
 
+.container2p {
+  grid-column: 2/4;
+  grid-row: 3;
+  padding: 10px;
+  font-size: 20px;
+}
+.container3p {
+  grid-column: 2/4;
+  grid-row: 4;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.footerclass1 {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer2 p { 
+  padding: 10px;
+}
