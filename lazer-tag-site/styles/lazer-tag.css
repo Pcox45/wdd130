@@ -67,6 +67,10 @@
   color: white;
 }
 
+.row img {
+  height: 150px;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -149,7 +153,7 @@ nav a:hover {
 
 .logo {
   height: 100px;
-  border-radius: 50%;
+  border-radius: 35%;
 }
 
 .hero {
@@ -219,7 +223,6 @@ footer {
 .footer-p {
   text-align: left;
   padding: 16px 10px;
-
 }
 
 .social {
@@ -241,12 +244,12 @@ footer {
 
 /* page 2 css */
 
-.main2 {
+/* .main2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   margin: 16px;
-}
+} */
 
 .containterrules {
 grid-column: 1;
@@ -298,5 +301,40 @@ font-size: 16px;
 }
 
 .footer2 p { 
+  padding: 10px;
+}
+
+/* page 3 css */
+
+.content3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.businesshours {
+  grid-column: 1/2;
+  grid-row: 2 ;
+  padding: 16px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.page3p {
+  grid-column: 2/4;
+  padding: 16px;
+}
+
+.page3img1 {
+  width: 100%;
+  padding: 20px;
+}
+
+.page3img2 {
+  grid-column: 2/4;
+  width: 100%;
+  padding: 20px;
+}
+
+.bottomnav {
   padding: 10px;
 }
